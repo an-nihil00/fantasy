@@ -105,9 +105,8 @@ Similarly, weak syllables may sometimes undergo strengthening. For syllables wit
 
 In inflection tables throughout the rest of this document, red cells indicate forms for which the final syllable should be weakened, and green cells indicate those for which it should be strengthened.
 
-* Grammar
-** Inflectional Morphology
-*** Nouns
+* Inflectional Morphology
+** Nouns
 Nouns inflect for 2 numbers (singular and plural) and 3 cases (nominative, accusative, genitive). These inflections are distinguished through suffixes. The inflection paradigm is summarized in the table below
 
 #+BEGIN_EXPORT html
@@ -292,7 +291,7 @@ These three examples show the oddities that can occur with roots ending in a "tr
 
 Lastly, this example demonstrates some oddities in the genitives of nouns whose final syllable is open and begins with /q/. Since such syllables cannot have a nasal coda, the ending -/im/ is used. In actual pronunciation, this sequence is realized with a glide breaking up the two vowels, i.e. /qaim/ is pronounced [qa.jim].
 
-*** Pronouns
+** Pronouns
 
 Each pronoun has 3 cases (the same as for nouns) and 3 numbers (singular, dual, and plural) for a total of 9 forms. There are 4 separate pronouns for the 1st person, 2nd person, animate 3rd person and inanimate 3rd person. The dual forms of the inanimate 3rd person, while given here by analogy with the animate 3rd person, are unattested in actual use.
 
@@ -393,11 +392,11 @@ Each pronoun has 3 cases (the same as for nouns) and 3 numbers (singular, dual, 
 </div>
 #+END_EXPORT
 
-*** TODO Verbs
+** TODO Verbs
 Verbs have forms
-** TODO Derivational Morphology
+* TODO Derivational Morphology
 
-** TODO Syntax
+* TODO Syntax
 
 * Lexicon
 ** Natural World
