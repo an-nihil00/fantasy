@@ -251,7 +251,7 @@ As these examples demonstrate, the different cases have a tendency to collapse i
     <th scope="col">Singular</th>
     <th scope="col">Plural</th>
 </tr><tr>
-    <th scope="row">Nom</th>
+    <th scope="row">Nom</thi could fix her>
     <td>mō</td>
     <td>mowa</td>
 </tr><tr>
@@ -267,6 +267,30 @@ As these examples demonstrate, the different cases have a tendency to collapse i
 #+END_EXPORT
 
 These three examples show the oddities that can occur with roots ending in a "true" vowel (i.e. not /i/ or /u/). For those ending with /a/ or /ā/, the nominative plural will be the same as the nominative and accusative singular. For those ending with /e/, /ē/, /o/ or /ō/, the singular and plural don't merge, but a glide is inserted to break up the two vowels, and the primary vowel shortens to compensate.
+
+#+BEGIN_EXPORT html
+<table>
+<caption><i>qa</i> "spear"</caption>
+<tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">Nom</th>
+    <td>qā</td>
+    <td>qā</td>
+</tr><tr>
+    <th scope="row">Acc</th>
+    <td>qa</td>
+    <td>qasa</td>
+</tr><tr>
+    <th scope="row">Gen</th>
+    <td>qaim</td>
+    <td>qada</td>
+</tr></tbody></table>
+#+END_EXPORT
+
+Lastly, this example demonstrates some oddities in the genitives of nouns whose final syllable is open and begins with /q/. Since such syllables cannot have a nasal coda, the ending -/im/ is used. In actual pronunciation, this sequence is realized with a glide breaking up the two vowels, i.e. /qaim/ is pronounced [qa.jim].
 
 *** Pronouns
 
@@ -380,15 +404,15 @@ Verbs have forms
  - /mō/ :: hill
  - /u/ :: water
 ** Plants and Fungi
- - /fā/ :: root
 ** Animals
  - /cē/ :: mosquito
+ - /fā/ :: pig
 ** People
  - /rsā/ :: person
  - /asi/ :: ruler
 ** Material Culture
  - /xwar/ :: iron
- - /qam/ :: spear
+ - /qa/ :: spear
  - /rm/ :: animal fat (e.g. lard) 
 
 
