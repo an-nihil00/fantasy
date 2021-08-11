@@ -392,6 +392,37 @@ Each pronoun has 3 cases (the same as for nouns) and 3 numbers (singular, dual, 
 </div>
 #+END_EXPORT
 
+In addition to these independent forms, there are also clitic forms of the nominative pronouns, whose use is explained in the following section.
+
+#+BEGIN_EXPORT html
+<table><tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Dual</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">1st</th>
+    <td>ja-</td>
+    <td>jo-</td>
+    <td>ja-</td>
+</tr><tr>
+    <th scope="row">2nd</th>
+    <td>bak-</td>
+    <td>bako-</td>
+    <td>baka-</td>
+</tr><tr>
+    <th scope="row">3rd Anim.</th>
+    <td>nge-</td>
+    <td>ngo-</td>
+    <td>nga-</td>
+</tr><tr>
+    <th scope="row">3rd Inan.</th>
+    <td>le-</td>
+    <td>*lo-</td>
+    <td>la-</td>
+</tr></tbody></table>
+#+END_EXPORT
+
 ** TODO Verbs
 Verbs have forms
 * TODO Derivational Morphology
