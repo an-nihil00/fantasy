@@ -1,0 +1,396 @@
+#+TITLE: Untitled Proto-Language 1
+#+AUTHOR: Emmy Emmycelium
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../style.css" />
+
+* Phonology
+** Consonants
+The consonant inventory is as follows
+#+BEGIN_EXPORT html
+<table><tbody><tr>
+    <td></td>
+    <th scope="col" colspan="2">Labial</th>
+    <th scope="col" colspan="2">Alevolar</th>
+    <th scope="col" colspan="2">Dorsal</th>
+    <th scope="col">Uvular</th>
+</tr><tr>
+    <th scope="row">Nasal</th>
+    <td colspan="2">m</td>
+    <td colspan="2">n</td>
+    <td colspan="2">ŋ</td>
+    <td>(ɴ)</td>
+</tr><tr>
+    <th scope="row">Stop</th>
+    <td>p</td>
+    <td>b</td>
+    <td>t</td>
+    <td>d</td>
+    <td>k</td>
+    <td>g</td>
+    <td>q</td>
+</tr><tr>
+    <th scope="row">Affricate</th>
+    <td colspan="2"></td>
+    <td>ts</td>
+    <td rowspan="2">(d)z</td>
+    <td colspan="2"></td>
+    <td></td>
+</tr><tr>
+    <th scope="row">Fricative</th>
+    <td colspan="2">f</td>
+    <td>s</td>
+    <td colspan="2">x</td>
+    <td></td>
+</tr><tr>
+    <th scope="row">Approximant</th>
+    <td colspan="2">(w)</td>
+    <td colspan="2">l</td>
+    <td colspan="2">(j)</td>
+    <td></td>
+</tr><tr>
+    <th scope="row">Trill</th>
+    <td colspan="2"></td>
+    <td colspan="2">r</td>
+    <td colspan="2"></td>
+    <td></td>
+</tr></tbody></table>
+#+END_EXPORT
+
+The realization of the phoneme /​dz/ varies between dialects, with some realizing it as a fricative and others as an affricate. /​f/ can be realized as either a bilabial fricative [ɸ] or a labiodental [f]. The velar consonants become palatalized before the close front vowel /​i/. The approximants [j] and [w] are allophones of the vowel phonemes /​i/ and /​u/ rather than consonant phonemes in their own right. The uvular nasal /​ɴ/ occurs only as an allophone of /​m/ before /​q/
+
+For examples in this document, words are transcribed as they would be in ipa with the exceptions that /​ŋ/ is written as ng, /​m/ is written as n before non-labial stops, /​dz/ is written as z and /​ts/ is written as c.
+
+** Vowels
+The monohpthong inventory is as follows
+
+#+BEGIN_EXPORT html
+<table><tbody><tr>
+    <td></td>
+    <th scope="col">Front</th>
+    <th scope="col">Back</th>
+</tr><tr>
+    <th scope="row">Close</th>
+    <td>i</td>
+    <td>u</td>
+</tr><tr>
+    <th scope="row">Mid</th>
+    <td>e</td>
+    <td>o</td>
+</tr><tr>
+    <th scope="row">Open</th>
+    <td colspan="2">a</td>
+</tr></tbody></table>
+#+END_EXPORT
+
+As mentioned above, the close vowels /​i/ and /​u/ have glide allophones [j] and [w]. /​a/, /​e/ and /​o/ contrast with long /​aː/, /​eː/ and /​oː/ (transcribed ā, ē, ō). 
+
+** Phonotactics
+Syllables may contain an onset consonant, a medial glide, a nucleus, and a final consonant, though the only one of these positions which /must/ be filled is the nucleus.
+
+*** Onsets
+All consonants may act as the onset of a syllable, however an initial uvular stop /​q/ restricts what finals may occur. Namely, no medials may occur with this consonant and the nucleus may not be a high vowel (/​i/ or /​u/).
+
+*** Finals
+Finals maximally consist of a medial, a nucleus, and a coda consonant. For most syllables, the nucleus will be one of the 5 short vowels. The medial may then be either /​i/ or /​u/, with the restriction that front medials may not occur with front vowels and back medials may not occur with back vowels (e.g. */je/ is not an allowed final). The coda consonant may be /​p/, /​t/, /​k/, /​m/ or /​r/. Note that while the nasal coda is transcribed as /​m/ and this is its realization in isolation, within the context of a longer utterance it will harmonize to the place of articulation of the following consonant. Therefore a word such as asi-m-da "of lords" will become asinda
+
+For syllables with a long vowel as the nucleus, there cannot be both a medial and a coda and only the stop codas can occur.
+
+There are also syllables which have a syllabic consonant, either /​r/ or /​m/, as their nucleus instead of a vowel. These syllables never have a medial or a coda, and just as with coda /​m/, the syllabic /​m/ as nucleus will harmonize with the following consonant. 
+
+*** Strong and Weak syllables
+Syllables which contain a long vowel, have a medial and a short vowel, or have an  /​r/ or /​m/ coda are considered "strong", while other syllables are considered "weak". 
+
+In some contexts, strong syllables may undergo weakening. When a syllable with a long vowel weakens, the vowel shortens. For those with a short vowel and a medial, the short vowel drops out and the medial glide becomes a vowel. Lastly, for those with an /​r/ or /​m/ coda, the vowel drops out and the coda becomes the nucleus.
+
+Similarly, weak syllables may sometimes undergo strengthening. For syllables with a short /​a/, /​e/ or /​o/ as the nucleus, the vowel lengthens. For those with /​i/ or /​u/ as the nucleus, an /​a/ is inserted after, making the former nucleus into a medial. For those with syllabic /​r/ or /​m/, an /​a/ is inserted before, making the nucleus into a coda.
+
+In inflection tables throughout the rest of this document, red cells indicate forms for which the final syllable should be weakened, and green cells indicate those for which it should be strengthened.
+
+* Grammar
+** Morphology
+*** Nouns
+Nouns inflect for 2 numbers (singular and plural) and 3 cases (nominative, accusative, genitive). These inflections are distinguished through suffixes. The inflection paradigm is summarized in the table below
+
+#+BEGIN_EXPORT html
+<table><tbody><tr>
+    <td></td>
+    <td>Singular</td>
+    <td>Plural</td>
+</tr><tr>
+    <td>Nom</td>
+    <td class="strong">&empty;</td>
+    <td class="strong">-a</td>
+</tr><tr>
+    <td>Acc</td>
+    <td>&empty;</td>
+    <td>-sa</td>
+</tr><tr>
+    <td>Gen</td>
+    <td class="weak">-(i)m</td>
+    <td class="weak">-(i)da</td>
+</tr></tbody></table>
+#+END_EXPORT
+
+The (i) in the genitive suffix indicates the fact that for consonant final roots (except those ending in /m/), the suffix is -im while for vowel final roots it is simply -m. An example noun declension is given below
+
+#+BEGIN_EXPORT html
+<table>
+<caption><i>asi</i> "ruler"</caption>
+<tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">Nom</th>
+    <td>asja</td>
+    <td>asjā</td>
+</tr><tr>
+    <th scope="row">Acc</th>
+    <td>asi</td>
+    <td>asisa</td>
+</tr><tr>
+    <th scope="row">Gen</th>
+    <td>asim</td>
+    <td>asida</td>
+</tr></tbody></table>
+#+END_EXPORT
+
+However, not all nouns decline in such a straightforward way. The following sets of example paradigms illustrate a few nuances of this declension system.
+
+#+BEGIN_EXPORT html
+<div class="holder">
+<table>
+<caption><i>xwar</i> "iron"</caption>
+<tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">Nom</th>
+    <td>xwar</td>
+    <td>xwara</td>
+</tr><tr>
+    <th scope="row">Acc</th>
+    <td>xwar</td>
+    <td>xwarsa</td>
+</tr><tr>
+    <th scope="row">Gen</th>
+    <td>xurim</td>
+    <td>xurida</td>
+</tr></tbody></table>
+
+<table>
+<caption><i>rm</i> "animal fat"</caption>
+<tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">Nom</th>
+    <td>ram</td>
+    <td>rama</td>
+</tr><tr>
+    <th scope="row">Acc</th>
+    <td>rm</td>
+    <td>rnsa</td>
+</tr><tr>
+    <th scope="row">Gen</th>
+    <td>rm</td>
+    <td>rnda</td>
+</tr></tbody></table>
+</div>
+#+END_EXPORT
+
+As these examples demonstrate, the different cases have a tendency to collapse in the singular. For strong nouns, the nominative and accusative collapse, while for weak nouns with a final -m, the genitive and accusative collapse.
+
+#+BEGIN_EXPORT html
+<div class="holder">
+<table>
+<caption><i>rsā</i> "Person"</caption>
+<tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">Nom</th>
+    <td>rsā</td>
+    <td>rsā</td>
+</tr><tr>
+    <th scope="row">Acc</th>
+    <td>rsā</td>
+    <td>rsāsa</td>
+</tr><tr>
+    <th scope="row">Gen</th>
+    <td>rsam</td>
+    <td>rsada</td>
+</tr></tbody></table>
+
+<table>
+<caption><i>cē</i> "mosquito"</caption>
+<tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">Nom</th>
+    <td>cē</td>
+    <td>ceja</td>
+</tr><tr>
+    <th scope="row">Acc</th>
+    <td>cē</td>
+    <td>cēsa</td>
+</tr><tr>
+    <th scope="row">Gen</th>
+    <td>cem</td>
+    <td>ceda</td>
+</tr></tbody></table>
+
+<table>
+<caption><i>mō</i> "hill"</caption>
+<tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">Nom</th>
+    <td>mō</td>
+    <td>mowa</td>
+</tr><tr>
+    <th scope="row">Acc</th>
+    <td>mō</td>
+    <td>mōsa</td>
+</tr><tr>
+    <th scope="row">Gen</th>
+    <td>mom</td>
+    <td>moda</td>
+</tr></tbody></table>
+</div>
+#+END_EXPORT
+
+These three examples show the oddities that can occur with roots ending in a "true" vowel (i.e. not /i/ or /u/). For those ending with /a/ or /ā/, the nominative plural will be the same as the nominative and accusative singular. For those ending with /e/, /ē/, /o/ or /ō/, the singular and plural don't merge, but a glide is inserted to break up the two vowels, and the primary vowel shortens to compensate.
+
+*** Pronouns
+
+Each pronoun has 3 cases (the same as for nouns) and 3 numbers (singular, dual, and plural) for a total of 9 forms. There are 4 separate pronouns for the 1st person, 2nd person, animate 3rd person and inanimate 3rd person. The dual forms of the inanimate 3rd person, while given here by analogy with the animate 3rd person, are unattested in actual use.
+
+#+BEGIN_EXPORT html
+<div class="holder">
+<table>
+<caption><i>ja</i> 1st person</caption>
+<tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Dual</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">Nom</th>
+    <td>ja</td>
+    <td>jo</td>
+    <td>jā</td>
+</tr><tr>
+    <th scope="row">Acc</th>
+    <td>ja</td>
+    <td>jaso</td>
+    <td>jasa</td>
+</tr><tr>
+    <th scope="row">Gen</th>
+    <td>im</td>
+    <td>ido</td>
+    <td>ida</td>
+</tr></tbody></table>
+<table>
+<caption><i>bjak</i> 2nd person</caption>
+<tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Dual</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">Nom</th>
+    <td>bjak</td>
+    <td>bjako</td>
+    <td>bjaka</td>
+</tr><tr>
+    <th scope="row">Acc</th>
+    <td>bjak</td>
+    <td>bjakso</td>
+    <td>bjaksa</td>
+</tr><tr>
+    <th scope="row">Gen</th>
+    <td>bim</td>
+    <td>bido</td>
+    <td>bida</td>
+</tr></tbody></table>
+<table>
+<caption><i>nge</i> 3nd person animate</caption>
+<tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Dual</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">Nom</th>
+    <td>ngē</td>
+    <td>ngejo</td>
+    <td>ngeja</td>
+</tr><tr>
+    <th scope="row">Acc</th>
+    <td>nge</td>
+    <td>ngeso</td>
+    <td>ngesa</td>
+</tr><tr>
+    <th scope="row">Gen</th>
+    <td>ngem</td>
+    <td>ngedo</td>
+    <td>ngeda</td>
+</tr></tbody></table>
+<table>
+<caption><i>le</i> 3nd person inanimate</caption>
+<tbody><tr>
+    <td></td>
+    <th scope="col">Singular</th>
+    <th scope="col">Dual</th>
+    <th scope="col">Plural</th>
+</tr><tr>
+    <th scope="row">Nom</th>
+    <td>lē</td>
+    <td>*lejo</td>
+    <td>leja</td>
+</tr><tr>
+    <th scope="row">Acc</th>
+    <td>le</td>
+    <td>*leso</td>
+    <td>lesa</td>
+</tr><tr>
+    <th scope="row">Gen</th>
+    <td>lem</td>
+    <td>*ledo</td>
+    <td>leda</td>
+</tr></tbody></table>
+</div>
+#+END_EXPORT
+
+*** TODO Verbs
+Verbs have forms
+*** TODO Derivation
+** TODO Syntax
+
+* Lexicon
+** Natural World
+ - /mr/ :: soil
+ - /mō/ :: hill
+ - /u/ :: water
+** Plants and Fungi
+ - /fā/ :: root
+** Animals
+ - /cē/ :: mosquito
+** People
+ - /rsā/ :: person
+ - /asi/ :: ruler
+** Material Culture
+ - /xwar/ :: iron
+ - /qam/ :: spear
+ - /rm/ :: animal fat (e.g. lard) 
+
+
+
+ 

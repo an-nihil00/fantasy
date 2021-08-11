@@ -1,0 +1,55 @@
+body {
+    margin: 40px auto;
+    max-width: 50em;
+    line-height: 1.6;
+    font-size: 18px;
+    color:#444;
+    padding: 0 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+.holder {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 0 -1em 0;
+}
+
+.holder>table {
+    margin: 0 1em 1em 0;
+}
+
+td, th {
+    border: 1px solid;
+    border-color: #bbb;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+td:first-child, th:first-child {
+    text-align: left;
+    font-weight: bold;
+    border-right: 2px solid;
+}
+
+tr:first-child {
+    font-weight: bold;
+    border-bottom: 2px solid;
+}
+
+.strong {
+    background-color:#afa;
+    color:#040;
+}
+
+.weak {
+    background-color:#faa;
+    color:#400;
+}
