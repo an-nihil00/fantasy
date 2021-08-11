@@ -106,7 +106,7 @@ Similarly, weak syllables may sometimes undergo strengthening. For syllables wit
 In inflection tables throughout the rest of this document, red cells indicate forms for which the final syllable should be weakened, and green cells indicate those for which it should be strengthened.
 
 * Grammar
-** Morphology
+** Inflectional Morphology
 *** Nouns
 Nouns inflect for 2 numbers (singular and plural) and 3 cases (nominative, accusative, genitive). These inflections are distinguished through suffixes. The inflection paradigm is summarized in the table below
 
@@ -395,7 +395,8 @@ Each pronoun has 3 cases (the same as for nouns) and 3 numbers (singular, dual, 
 
 *** TODO Verbs
 Verbs have forms
-*** TODO Derivation
+** TODO Derivational Morphology
+
 ** TODO Syntax
 
 * Lexicon
