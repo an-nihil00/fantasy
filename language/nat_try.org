@@ -6,8 +6,8 @@
 ** Consonants
 The consonant inventory is as follows
 #+BEGIN_EXPORT html
-<table><tbody><tr>
-    <td></td>
+<table><tbody><tr class="head">
+    <th></th>
     <th scope="col" colspan="2">Labial</th>
     <th scope="col" colspan="2">Alevolar</th>
     <th scope="col" colspan="2">Dorsal</th>
@@ -60,11 +60,11 @@ The realization of the phoneme /​dz/ varies between dialects, with some realiz
 For examples in this document, words are transcribed as they would be in ipa with the exceptions that /​ŋ/ is written as ng, /​m/ is written as n before non-labial stops, /​dz/ is written as z and /​ts/ is written as c.
 
 ** Vowels
-The monohpthong inventory is as follows
+The vowel inventory is as follows
 
 #+BEGIN_EXPORT html
-<table><tbody><tr>
-    <td></td>
+<table><tbody><tr class="head">
+    <th></th>
     <th scope="col">Front</th>
     <th scope="col">Back</th>
 </tr><tr>
@@ -110,20 +110,20 @@ In inflection tables throughout the rest of this document, red cells indicate fo
 Nouns inflect for 2 numbers (singular and plural) and 3 cases (nominative, accusative, genitive). These inflections are distinguished through suffixes. The inflection paradigm is summarized in the table below
 
 #+BEGIN_EXPORT html
-<table><tbody><tr>
-    <td></td>
-    <td>Singular</td>
-    <td>Plural</td>
+<table class="para"><tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <td>Nom</td>
+    <th scope="row">nom</th>
     <td class="strong">&empty;</td>
     <td class="strong">-a</td>
 </tr><tr>
-    <td>Acc</td>
+    <th scope="row">acc</th>
     <td>&empty;</td>
     <td>-sa</td>
 </tr><tr>
-    <td>Gen</td>
+    <th scope="row">gen</th>
     <td class="weak">-(i)m</td>
     <td class="weak">-(i)da</td>
 </tr></tbody></table>
@@ -132,22 +132,22 @@ Nouns inflect for 2 numbers (singular and plural) and 3 cases (nominative, accus
 The (i) in the genitive suffix indicates the fact that for consonant final roots (except those ending in /m/), the suffix is -im while for vowel final roots it is simply -m. An example noun declension is given below
 
 #+BEGIN_EXPORT html
-<table>
+<table class="para">
 <caption><i>asi</i> "ruler"</caption>
-<tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Plural</th>
+<tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">Nom</th>
+    <th scope="row">nom</th>
     <td>asja</td>
     <td>asjā</td>
 </tr><tr>
-    <th scope="row">Acc</th>
+    <th scope="row">acc</th>
     <td>asi</td>
     <td>asisa</td>
 </tr><tr>
-    <th scope="row">Gen</th>
+    <th scope="row">gen</th>
     <td>asim</td>
     <td>asida</td>
 </tr></tbody></table>
@@ -157,42 +157,42 @@ However, not all nouns decline in such a straightforward way. The following sets
 
 #+BEGIN_EXPORT html
 <div class="holder">
-<table>
+<table class="para">
 <caption><i>xwar</i> "iron"</caption>
-<tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Plural</th>
+<tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">Nom</th>
+    <th scope="row">nom</th>
     <td>xwar</td>
     <td>xwara</td>
 </tr><tr>
-    <th scope="row">Acc</th>
+    <th scope="row">acc</th>
     <td>xwar</td>
     <td>xwarsa</td>
 </tr><tr>
-    <th scope="row">Gen</th>
+    <th scope="row">gen</th>
     <td>xurim</td>
     <td>xurida</td>
 </tr></tbody></table>
 
-<table>
+<table class="para">
 <caption><i>rm</i> "animal fat"</caption>
-<tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Plural</th>
+<tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">Nom</th>
+    <th scope="row">nom</th>
     <td>ram</td>
     <td>rama</td>
 </tr><tr>
-    <th scope="row">Acc</th>
+    <th scope="row">acc</th>
     <td>rm</td>
     <td>rnsa</td>
 </tr><tr>
-    <th scope="row">Gen</th>
+    <th scope="row">gen</th>
     <td>rm</td>
     <td>rnda</td>
 </tr></tbody></table>
@@ -203,62 +203,62 @@ As these examples demonstrate, the different cases have a tendency to collapse i
 
 #+BEGIN_EXPORT html
 <div class="holder">
-<table>
+<table class="para">
 <caption><i>rsā</i> "Person"</caption>
-<tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Plural</th>
+<tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">Nom</th>
+    <th scope="row">nom</th>
     <td>rsā</td>
     <td>rsā</td>
 </tr><tr>
-    <th scope="row">Acc</th>
+    <th scope="row">acc</th>
     <td>rsā</td>
     <td>rsāsa</td>
 </tr><tr>
-    <th scope="row">Gen</th>
+    <th scope="row">gen</th>
     <td>rsam</td>
     <td>rsada</td>
 </tr></tbody></table>
 
-<table>
+<table class="para">
 <caption><i>cē</i> "mosquito"</caption>
-<tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Plural</th>
+<tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">Nom</th>
+    <th scope="row">nom</th>
     <td>cē</td>
     <td>ceja</td>
 </tr><tr>
-    <th scope="row">Acc</th>
+    <th scope="row">acc</th>
     <td>cē</td>
     <td>cēsa</td>
 </tr><tr>
-    <th scope="row">Gen</th>
+    <th scope="row">gen</th>
     <td>cem</td>
     <td>ceda</td>
 </tr></tbody></table>
 
-<table>
+<table class="para">
 <caption><i>mō</i> "hill"</caption>
-<tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Plural</th>
+<tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">Nom</thi could fix her>
+    <th scope="row">nom</thi could fix her>
     <td>mō</td>
     <td>mowa</td>
 </tr><tr>
-    <th scope="row">Acc</th>
+    <th scope="row">acc</th>
     <td>mō</td>
     <td>mōsa</td>
 </tr><tr>
-    <th scope="row">Gen</th>
+    <th scope="row">gen</th>
     <td>mom</td>
     <td>moda</td>
 </tr></tbody></table>
@@ -268,22 +268,22 @@ As these examples demonstrate, the different cases have a tendency to collapse i
 These three examples show the oddities that can occur with roots ending in a "true" vowel (i.e. not /i/ or /u/). For those ending with /a/ or /ā/, the nominative plural will be the same as the nominative and accusative singular. For those ending with /e/, /ē/, /o/ or /ō/, the singular and plural don't merge, but a glide is inserted to break up the two vowels, and the primary vowel shortens to compensate.
 
 #+BEGIN_EXPORT html
-<table>
+<table class="para">
 <caption><i>qa</i> "spear"</caption>
-<tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Plural</th>
+<tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">Nom</th>
+    <th scope="row">nom</th>
     <td>qā</td>
     <td>qā</td>
 </tr><tr>
-    <th scope="row">Acc</th>
+    <th scope="row">acc</th>
     <td>qa</td>
     <td>qasa</td>
 </tr><tr>
-    <th scope="row">Gen</th>
+    <th scope="row">gen</th>
     <td>qaim</td>
     <td>qada</td>
 </tr></tbody></table>
@@ -297,94 +297,94 @@ Each pronoun has 3 cases (the same as for nouns) and 3 numbers (singular, dual, 
 
 #+BEGIN_EXPORT html
 <div class="holder">
-<table>
+<table class="para">
 <caption><i>ja</i> 1st person</caption>
-<tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Dual</th>
-    <th scope="col">Plural</th>
+<tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">du</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">Nom</th>
+    <th scope="row">nom</th>
     <td>ja</td>
     <td>jo</td>
     <td>jā</td>
 </tr><tr>
-    <th scope="row">Acc</th>
+    <th scope="row">acc</th>
     <td>ja</td>
     <td>jaso</td>
     <td>jasa</td>
 </tr><tr>
-    <th scope="row">Gen</th>
+    <th scope="row">gen</th>
     <td>im</td>
     <td>ido</td>
     <td>ida</td>
 </tr></tbody></table>
-<table>
+<table class="para">
 <caption><i>bjak</i> 2nd person</caption>
-<tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Dual</th>
-    <th scope="col">Plural</th>
+<tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">du</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">Nom</th>
+    <th scope="row">nom</th>
     <td>bjak</td>
     <td>bjako</td>
     <td>bjaka</td>
 </tr><tr>
-    <th scope="row">Acc</th>
+    <th scope="row">acc</th>
     <td>bjak</td>
     <td>bjakso</td>
     <td>bjaksa</td>
 </tr><tr>
-    <th scope="row">Gen</th>
+    <th scope="row">gen</th>
     <td>bim</td>
     <td>bido</td>
     <td>bida</td>
 </tr></tbody></table>
-<table>
+<table class="para">
 <caption><i>nge</i> 3nd person animate</caption>
-<tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Dual</th>
-    <th scope="col">Plural</th>
+<tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">du</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">Nom</th>
+    <th scope="row">nom</th>
     <td>ngē</td>
     <td>ngejo</td>
     <td>ngeja</td>
 </tr><tr>
-    <th scope="row">Acc</th>
+    <th scope="row">acc</th>
     <td>nge</td>
     <td>ngeso</td>
     <td>ngesa</td>
 </tr><tr>
-    <th scope="row">Gen</th>
+    <th scope="row">gen</th>
     <td>ngem</td>
     <td>ngedo</td>
     <td>ngeda</td>
 </tr></tbody></table>
-<table>
+<table class="para">
 <caption><i>le</i> 3nd person inanimate</caption>
-<tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Dual</th>
-    <th scope="col">Plural</th>
+<tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">du</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">Nom</th>
+    <th scope="row">nom</th>
     <td>lē</td>
     <td>*lejo</td>
     <td>leja</td>
 </tr><tr>
-    <th scope="row">Acc</th>
+    <th scope="row">acc</th>
     <td>le</td>
     <td>*leso</td>
     <td>lesa</td>
 </tr><tr>
-    <th scope="row">Gen</th>
+    <th scope="row">gen</th>
     <td>lem</td>
     <td>*ledo</td>
     <td>leda</td>
@@ -395,28 +395,28 @@ Each pronoun has 3 cases (the same as for nouns) and 3 numbers (singular, dual, 
 In addition to these independent forms, there are also clitic forms of the nominative pronouns, whose use is explained in the following section.
 
 #+BEGIN_EXPORT html
-<table><tbody><tr>
-    <td></td>
-    <th scope="col">Singular</th>
-    <th scope="col">Dual</th>
-    <th scope="col">Plural</th>
+<table class="para"><tbody><tr class="head">
+    <th></th>
+    <th scope="col">sg</th>
+    <th scope="col">du</th>
+    <th scope="col">pl</th>
 </tr><tr>
-    <th scope="row">1st</th>
+    <th scope="row">1</th>
     <td>ja-</td>
     <td>jo-</td>
     <td>ja-</td>
 </tr><tr>
-    <th scope="row">2nd</th>
+    <th scope="row">2</th>
     <td>bak-</td>
     <td>bako-</td>
     <td>baka-</td>
 </tr><tr>
-    <th scope="row">3rd Anim.</th>
+    <th scope="row">3anim</th>
     <td>nge-</td>
     <td>ngo-</td>
     <td>nga-</td>
 </tr><tr>
-    <th scope="row">3rd Inan.</th>
+    <th scope="row">3inan</th>
     <td>le-</td>
     <td>*lo-</td>
     <td>la-</td>
@@ -424,10 +424,23 @@ In addition to these independent forms, there are also clitic forms of the nomin
 #+END_EXPORT
 
 ** TODO Verbs
-Verbs have forms
+
+Every verb has an inherent aspect, either perfective or imperfective. Active verbs, which may be cosnidered the prototypical verb, have perfective aspect while those 
+
 * TODO Derivational Morphology
 
 * TODO Syntax
+
+** Prepositions
+
+All adpositions are prepositions. Most prepositions expressing motion take their objects in the accusative, while those expressing static location take their object in the genitive. An exception to this is prepositions of motion which are historically derived from compounds of another preposition with a term for a body part, which take genitive objects.
+
+** Nominal and Prepositional Predicate Sentences
+
+Sentences with a nominal predicate (i.e. of the form "A is B") and a pronominal subject are formed by attaching the clitic form of the pronoun to the nominative case of the predicate, as in /jāsja/ "I am a/the ruler." For those with a nominal subject, the subject is placed at the beginning followed by the 3rd person pronominal form of the sentence, as in /xansā ngejasja/ "Xansa is a/the ruler." This is in contrast to simply juxtaposing two nominative case nouns which is how apposition is expressed, as in /xansā asja/ "Xansa the ruler."
+
+Sentences with a prepositional phrase as the predicate are formed in the same way, with a prepositional phrase appearing in the position of the nominal predicate.
+
 
 * Lexicon
 ** Natural World
@@ -444,7 +457,9 @@ Verbs have forms
 ** Material Culture
  - /xwar/ :: iron
  - /qa/ :: spear
- - /rm/ :: animal fat (e.g. lard) 
+ - /rm/ :: animal fat (e.g. lard)
+** Actions
+ - /su/ :: say
 
 
 

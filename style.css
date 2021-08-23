@@ -18,6 +18,7 @@ h1, h2, h3 {
 .holder {
     display: flex;
     flex-flow: row wrap;
+    align-items: flex-start;
     margin: 0 0 -1em 0;
 }
 
@@ -33,15 +34,22 @@ td, th {
     padding: 0 5px;
 }
 
-td:first-child, th:first-child {
+th:first-child {
     text-align: left;
     font-weight: bold;
     border-right: 2px solid;
 }
 
-tr:first-child {
-    font-weight: bold;
+tr.head > th {
     border-bottom: 2px solid;
+}
+
+.para > tbody > tr > th {
+    font-variant: small-caps;
+}
+
+.no {
+    background-color:#bbb;
 }
 
 .strong {
