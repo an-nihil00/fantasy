@@ -518,7 +518,7 @@ example paradigms are provided below for a perfective verb and an imperfective v
 
 *** Imperative
 
- The imperative can be used without an explicit subject to give commands, with the same form being used regardless of the number of people being addressed. The imperative form may also be used with an explicit subject to express optative meaning.
+ The imperative can be used without an explicit subject to give commands, with the same form being used regardless of the number of people being addressed, as in /oxadō/ "kneel". The imperative form may also be used with an explicit subject to express optative meaning as in /ngawoxadō ngada sam bim/ "may they kneel before you."
 
 *** Oddities
 
@@ -572,6 +572,7 @@ Sentences with a prepositional phrase as the predicate are formed in the same wa
  - /krgr/ :: to be strewn about or scattered
 ** Prepositions
  - /o/ :: on
+ - /sam/ :: in the presence of, before
  
 
 
