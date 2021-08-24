@@ -107,7 +107,7 @@ In inflection tables throughout the rest of this document, red cells indicate fo
 
 * Inflectional Morphology
 ** Nouns
-Nouns inflect for 2 numbers (singular and plural) and 3 cases (nominative, accusative, genitive). These inflections are distinguished through suffixes. The inflection paradigm is summarized in the table below
+Most nouns inflect for 2 numbers (singular and plural) and 3 cases (nominative, accusative, genitive). These inflections are distinguished through suffixes. The inflection paradigm is summarized in the table below
 
 #+BEGIN_EXPORT html
 <table class="para"><tbody><tr class="head">
@@ -289,8 +289,9 @@ These three examples show the oddities that can occur with roots ending in a "tr
 </tr></tbody></table>
 #+END_EXPORT
 
-Lastly, this example demonstrates some oddities in the genitives of nouns whose final syllable is open and begins with /q/. Since such syllables cannot have a nasal coda, the ending -/im/ is used. In actual pronunciation, this sequence is realized with a glide breaking up the two vowels, i.e. /qaim/ is pronounced [qa.jim].
+This example demonstrates some oddities in the genitives of nouns whose final syllable is open and begins with /q/. Since such syllables cannot have a nasal coda, the ending -/im/ is used. In actual pronunciation, this sequence is realized with a glide breaking up the two vowels, i.e. /qaim/ is pronounced [qa.jim].
 
+Lastly, some nouns (almost entirely body parts) have distinct dual forms. These forms are identical to the plurals but with final /o/ instead of /a/, and final /ō/ instead of /ā/.
 ** Pronouns
 
 Each pronoun has 3 cases (the same as for nouns) and 3 numbers (singular, dual, and plural) for a total of 9 forms. There are 4 separate pronouns for the 1st person, 2nd person, animate 3rd person and inanimate 3rd person. The dual forms of the inanimate 3rd person, while given here by analogy with the animate 3rd person, are unattested in actual use.
@@ -307,7 +308,7 @@ Each pronoun has 3 cases (the same as for nouns) and 3 numbers (singular, dual, 
 </tr><tr>
     <th scope="row">nom</th>
     <td>ja</td>
-    <td>jo</td>
+    <td>jō</td>
     <td>jā</td>
 </tr><tr>
     <th scope="row">acc</th>
@@ -425,7 +426,103 @@ In addition to these independent forms, there are also clitic forms of the nomin
 
 ** TODO Verbs
 
-Every verb has an inherent aspect, either perfective or imperfective. Active verbs, which may be cosnidered the prototypical verb, have perfective aspect while those 
+Verbs have 4 finite forms. These are the perfective, past imperfective, non-past imperfective, and imperative. Verbs are split into those with inherent perfective aspect and those with inherent imperfective aspect. Imperfective verbs encompass stative verbs and atelic active verbs, while telic active verbs are perfective. For most verbs telicity is a constant property of the word, but for some verbs (mostly verbs of motion) their telicity and thus their inherent aspect depends on whether they are used intransitively (as in "he walks") or transitively (as in "he walks to the city"), with the former being atelic and thus imperfective and the latter being telic and thus perfective. 
+
+The inflection patterns and the semantics of some of the inflections for these two categories are different as will be seen below.
+
+#+BEGIN_EXPORT html
+<div class="holder">
+<table class="para">
+<caption>Perfective</caption>
+<tbody><tr>
+    <th scope="row">pfv</th>
+    <td>&empty;</td>
+</tr><tr>
+    <th scope="row">npst ipfv</th>
+    <td>-ja</td>
+</tr><tr>
+    <th scope="row">pst ipfv</th>
+    <td>na-...-ja</td>
+</tr><tr>
+    <th scope="row">imp</th>
+    <td class="strong">-ra</td>
+</tr></tbody></table>
+<table class="para">
+<caption>Imperfective</caption>
+<tbody><tr>
+    <th scope="row">pfv</th>
+    <td>-i</td>
+</tr><tr>
+    <th scope="row">pres ipfv</th>
+    <td>&empty;</td>
+</tr><tr>
+    <th scope="row">pst ipfv</th>
+    <td>na-</td>
+</tr><tr>
+    <th scope="row">imp</th>
+    <td class="strong">-ira</td>
+</tr></tbody></table>
+</div>
+#+END_EXPORT
+
+example paradigms are provided below for a perfective verb and an imperfective verb
+
+#+BEGIN_EXPORT html
+<div class="holder">
+<table class="para">
+<caption><i>su</i> "say"</caption>
+<tbody><tr>
+    <th scope="row">pfv</th>
+    <td>su</td>
+</tr><tr>
+    <th scope="row">npst ipfv</th>
+    <td>suja</td>
+</tr><tr>
+    <th scope="row">pst ipfv</th>
+    <td>nasuja</td>
+</tr><tr>
+    <th scope="row">imp</th>
+    <td>swara</td>
+</tr></tbody></table>
+<table class="para">
+<caption><i>xak</i> "know"</caption>
+<tbody><tr>
+    <th scope="row">pfv</th>
+    <td>xaki</td>
+</tr><tr>
+    <th scope="row">npst ipfv</th>
+    <td>xak</td>
+</tr><tr>
+    <th scope="row">pst ipfv</th>
+    <td>naxak</td>
+</tr><tr>
+    <th scope="row">imp</th>
+    <td>xakira</td>
+</tr></tbody></table>
+</div>
+#+END_EXPORT
+
+** Perfective
+
+The perfective is used for an event viewed as a simple whole without internal structure. On its own it most commonly has past tense meaning, though it may also be used for narrating events as they happen in the present or for simple future events which have a definite time expressed by an adverbial phrase. Future events without an adverbial phrase expressing a time dont use any of the finite verb forms, and will be discussed later.
+
+For verbs with inherent imperfective aspect, the perfective generally indicates the beginning of the atelic action or the state which the verb describes, thus /ngaxaki/ would mean (keeping in mind the caveats about tense given above) "they began to know" or more idiomatically "they learned". A special case of this is for verbs which express spatial configuration such as /krgr/ "to be scattered", for which the perfect expresses movement into that state, as in /ngakrgir/ "they scattered." The perfective form of an imperfective verb can also have the imperfective suffix -/ja/ added on top of the eprfective suffix -/i/ to convey the start of the state or action as an ongoing event of its own, as in /ngakrgirja/ "they are scattering" 
+
+** Past Imperfective
+
+The past imperfective is used for actions viewed as ongoing which ended in the past.
+
+** Non-Past Imperfective
+
+The non-past imperfective is most commonly used to express ongoing actions which began in the past and continue through the present. Like the perfective, it may also have future meaning if used with an adverbial expressing a specific time. The default meaning of the future use of the non-past imperfective is that the start of the action is in the future but before the time which is specified, however it is also possible to express that an action which started in the past will still be ongoing in the future by adding the particle /la/ after the verb.
+
+** Imperative
+
+The imperative can be used without an explicit subject to give commands, with the same form being used regardless of the number of people being addressed. The imperative form may also be used with an explicit subject to express optative meaning.
+
+** Oddities
+
+Some intransitive verbs expressing spatial configuration such as /oxado/ "to be kneeling" are derived from prepositional phrases involving body parts, and so are followed by a genitive pronoun that matches the subject, as in /ngejoxado ngem/ "he is kneeling," historically from /ngejo kado ngem/ "he is on his two knees." Any verb endings will attach to the verb rather than to the genitive pronoun, so "she knelt" would be translated as /ngejoxadowi ngem/ and not /*ngejoxado ngemi/ 
 
 * TODO Derivational Morphology
 
@@ -435,32 +532,47 @@ Every verb has an inherent aspect, either perfective or imperfective. Active ver
 
 All adpositions are prepositions. Most prepositions expressing motion take their objects in the accusative, while those expressing static location take their object in the genitive. An exception to this is prepositions of motion which are historically derived from compounds of another preposition with a term for a body part, which take genitive objects.
 
-** Nominal and Prepositional Predicate Sentences
+** Sentence Structure
+
+The basic structure of all sentences is [topic][comment]
+   
+*** Nominal and Prepositional Predicate Sentences
 
 Sentences with a nominal predicate (i.e. of the form "A is B") and a pronominal subject are formed by attaching the clitic form of the pronoun to the nominative case of the predicate, as in /jāsja/ "I am a/the ruler." For those with a nominal subject, the subject is placed at the beginning followed by the 3rd person pronominal form of the sentence, as in /xansā ngejasja/ "Xansa is a/the ruler." This is in contrast to simply juxtaposing two nominative case nouns which is how apposition is expressed, as in /xansā asja/ "Xansa the ruler."
 
 Sentences with a prepositional phrase as the predicate are formed in the same way, with a prepositional phrase appearing in the position of the nominal predicate.
 
 
-* Lexicon
-** Natural World
- - /mr/ :: soil
- - /mō/ :: hill
- - /u/ :: water
-** Plants and Fungi
-** Animals
- - /cē/ :: mosquito
- - /fā/ :: pig
-** People
- - /rsā/ :: person
- - /asi/ :: ruler
-** Material Culture
- - /xwar/ :: iron
- - /qa/ :: spear
- - /rm/ :: animal fat (e.g. lard)
-** Actions
- - /su/ :: say
 
+* Lexicon
+** Nouns
+*** Natural World
+  - /mr/ :: soil
+  - /mō/ :: hill
+  - /u/ :: water
+*** Plants and Fungi
+*** Animals
+  - /cē/ :: mosquito
+  - /fā/ :: pig
+*** People
+  - /rsā/ :: person
+  - /asi/ :: ruler
+*** Body Parts
+  - /ka/ :: knee
+*** Material Culture
+  - /xwar/ :: iron
+  - /qa/ :: spear
+  - /rm/ :: animal fat (e.g. lard)
+** Verbs
+*** Sound Emissions
+ - /su/ :: say
+*** Mental States
+ - /xak/ :: know
+*** Spatial states
+ - /krgr/ :: to be strewn about or scattered
+** Prepositions
+ - /o/ :: on
+ 
 
 
  
