@@ -90,7 +90,7 @@ Syllables may contain an onset consonant, a medial glide, a nucleus, and a final
 All consonants may act as the onset of a syllable, however an initial uvular stop /​q/ restricts what finals may occur. Namely, no medials may occur with this consonant and the nucleus may not be a high vowel (/​i/ or /​u/).
 
 *** Finals
-Finals maximally consist of a medial, a nucleus, and a coda consonant. For most syllables, the nucleus will be one of the 5 short vowels. The medial may then be either /​i/ or /​u/, with the restriction that front medials may not occur with front vowels and back medials may not occur with back vowels (e.g. */je/ is not an allowed final). The coda consonant may be /​p/, /​t/, /​k/, /​m/ or /​r/. Note that while the nasal coda is transcribed as /​m/ and this is its realization in isolation, within the context of a longer utterance it will harmonize to the place of articulation of the following consonant. Therefore a word such as rm-da "of animal fats" will become rnda
+Finals maximally consist of a medial, a nucleus, and a coda consonant. For most syllables, the nucleus will be one of the 5 short vowels. The medial may then be either /​i/ or /​u/. The coda consonant may be /​p/, /​t/, /​k/, /​m/ or /​r/. Note that while the nasal coda is transcribed as /​m/ and this is its realization in isolation, within the context of a longer utterance it will harmonize to the place of articulation of the following consonant. Therefore a word such as rm-da "of animal fats" will become rnda
 
 For syllables with a long vowel as the nucleus, there cannot be both a medial and a coda and only the stop codas can occur.
 
@@ -104,6 +104,9 @@ In some contexts, strong syllables may undergo weakening. When a syllable with a
 Similarly, weak syllables may sometimes undergo strengthening. For syllables with a short /​a/, /​e/ or /​o/ as the nucleus, the vowel lengthens. For those with /​i/ or /​u/ as the nucleus, an /​a/ is inserted after, making the former nucleus into a medial. For those with syllabic /​r/ or /​m/, an /​a/ is inserted before, making the nucleus into a coda.
 
 In inflection tables throughout the rest of this document, red cells indicate forms for which the final syllable should be weakened, and green cells indicate those for which it should be strengthened.
+
+*** Vowel Sequences
+sequences of consecutive vowels are broken up using glides. The exact rules of this haven't been fully specified yet.
 
 * Inflectional Morphology
 ** Nouns
@@ -284,12 +287,12 @@ These three examples show the oddities that can occur with roots ending in a "tr
     <td>qasa</td>
 </tr><tr>
     <th scope="row">gen</th>
-    <td>qaim</td>
+    <td>qajim</td>
     <td>qada</td>
 </tr></tbody></table>
 #+END_EXPORT
 
-This example demonstrates some oddities in the genitives of nouns whose final syllable is open and begins with /q/. Since such syllables cannot have a nasal coda, the ending -/im/ is used. In actual pronunciation, this sequence is realized with a glide breaking up the two vowels, i.e. /qaim/ is pronounced [qa.jim].
+This example demonstrates some oddities in the genitives of nouns whose final syllable is open and begins with /q/. Since such syllables cannot have a nasal coda, the ending -/im/ is used. The vowel cluster rules then turn this into -/jim/
 
 Lastly, some nouns (almost entirely body parts) have distinct dual forms. These forms are identical to the plurals but with final /o/ instead of /a/, and final /ō/ instead of /ā/.
 ** Pronouns
@@ -526,23 +529,43 @@ example paradigms are provided below for a perfective verb and an imperfective v
 
 * TODO Derivational Morphology
 
+** Verbs
+
+*** Agentives
+
+*** Causatives
+
+For stative verbs, no morphology is necessary to derive the causative, they can simply be used with transitive syntax to convey causative meaning, as in /ngajoxado ngeda ngē/ "She made them kneel."
+
+For other verbs, the causative 
+
+*** Desideratives
+
+*** Frequentative
+
+The frequentative expresses doing something several times or in various places, and is formed by reduplicating the first syllable of the verb, minus any coda consonant or medial. If the initial consonant is a voiceless consonant with a voiced counterpart, the original initial consonant becomes voiced. Frequentatives naturally have inherent imperfective aspect, and as for other imperfective verbs, the perfective form expresses the beginning of the action. Thus from /pjek/ "walk" we get /pebjek/ "wander" 
+
 * TODO Syntax
 
 ** Prepositions
 
 All adpositions are prepositions. Most prepositions expressing motion take their objects in the accusative, while those expressing static location take their object in the genitive. An exception to this is prepositions of motion which are historically derived from compounds of another preposition with a term for a body part, which take genitive objects.
-
-** Sentence Structure
-
-The basic structure of all sentences is [topic][comment]
    
-*** Nominal and Prepositional Predicate Sentences
+** Nominal and Prepositional Predicate Sentences
 
 Sentences with a nominal predicate (i.e. of the form "A is B") and a pronominal subject are formed by attaching the clitic form of the pronoun to the nominative case of the predicate, as in /jāsja/ "I am a/the ruler." For those with a nominal subject, the subject is placed at the beginning followed by the 3rd person pronominal form of the sentence, as in /xansā ngejasja/ "Xansa is a/the ruler." This is in contrast to simply juxtaposing two nominative case nouns which is how apposition is expressed, as in /xansā asja/ "Xansa the ruler."
 
 Sentences with a prepositional phrase as the predicate are formed in the same way, with a prepositional phrase appearing in the position of the nominal predicate.
 
+** Verbal Sentences
 
+The "basic" word order is VSO, however in general the topic of an utterance is fronted, leading to the main clause of many sentences appearing as SVO or more rarely OVS. 
+   
+In cases where the topic and is a pronoun, the clitic form of the pronoun is prefixed to the verb, as in /ngaxak le/ "they know it." This can be done with either subject or object topics. Compare /ngaxak le/ "as for them, they know it" and /lexak ngeja/ "as for it, they know it."
+
+*** Passives
+
+While there is no dedicated morphological passive, something like passive meaning can be expressed using sentences with a third person inanimate subject without a clear referent. To express  
 
 * Lexicon
 ** Nouns
@@ -559,20 +582,29 @@ Sentences with a prepositional phrase as the predicate are formed in the same wa
   - /asi/ :: ruler
 *** Body Parts
   - /ka/ :: knee
+  - /azu/ :: hand 
 *** Material Culture
   - /xwar/ :: iron
   - /qa/ :: spear
   - /rm/ :: animal fat (e.g. lard)
+  - /fur/ :: a staple tuberous root vegetable, similar to cassava or potato. also used as a term for food more generally.  
 ** Verbs
-*** Sound Emissions
- - /su/ :: say
+*** Sound Emission
+ - /su/ :: say, speak
+*** Movement
+ - /pjek/ :: walk
+*** Other Active
+ - /sek/ :: eat 
 *** Mental States
  - /xak/ :: know
-*** Spatial states
+*** Spatial States
  - /krgr/ :: to be strewn about or scattered
+*** Other Statives
+ - /go/ :: to exist (perfective meaning "to become")
 ** Prepositions
  - /o/ :: on
  - /sam/ :: in the presence of, before
+ - /zi/ :: through  
  
 
 
