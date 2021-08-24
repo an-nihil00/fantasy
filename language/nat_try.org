@@ -460,7 +460,7 @@ The inflection patterns and the semantics of some of the inflections for these t
     <td>na-</td>
 </tr><tr>
     <th scope="row">imp</th>
-    <td class="strong">-ira</td>
+    <td class="strong">-ra</td>
 </tr></tbody></table>
 </div>
 #+END_EXPORT
@@ -497,7 +497,7 @@ example paradigms are provided below for a perfective verb and an imperfective v
     <td>naxak</td>
 </tr><tr>
     <th scope="row">imp</th>
-    <td>xakira</td>
+    <td>xakra</td>
 </tr></tbody></table>
 </div>
 #+END_EXPORT
