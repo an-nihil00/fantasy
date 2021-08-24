@@ -502,27 +502,27 @@ example paradigms are provided below for a perfective verb and an imperfective v
 </div>
 #+END_EXPORT
 
-** Perfective
+*** Perfective
 
-The perfective is used for an event viewed as a simple whole without internal structure. On its own it most commonly has past tense meaning, though it may also be used for narrating events as they happen in the present or for simple future events which have a definite time expressed by an adverbial phrase. Future events without an adverbial phrase expressing a time dont use any of the finite verb forms, and will be discussed later.
+ The perfective is used for an event viewed as a simple whole without internal structure. On its own it most commonly has past tense meaning, though it may also be used for narrating events as they happen in the present or for simple future events which have a definite time expressed by an adverbial phrase. Future events without an adverbial phrase expressing a time dont use any of the finite verb forms, and will be discussed later.
 
-For verbs with inherent imperfective aspect, the perfective generally indicates the beginning of the atelic action or the state which the verb describes, thus /ngaxaki/ would mean (keeping in mind the caveats about tense given above) "they began to know" or more idiomatically "they learned". A special case of this is for verbs which express spatial configuration such as /krgr/ "to be scattered", for which the perfect expresses movement into that state, as in /ngakrgir/ "they scattered." The perfective form of an imperfective verb can also have the imperfective suffix -/ja/ added on top of the eprfective suffix -/i/ to convey the start of the state or action as an ongoing event of its own, as in /ngakrgirja/ "they are scattering" 
+ For verbs with inherent imperfective aspect, the perfective generally indicates the beginning of the atelic action or the state which the verb describes, thus /ngaxaki/ would mean (keeping in mind the caveats about tense given above) "they began to know" or more idiomatically "they learned". A special case of this is for verbs which express spatial configuration such as /krgr/ "to be scattered", for which the perfect expresses movement into that state, as in /ngakrgir/ "they scattered." The perfective form of an imperfective verb can also have the imperfective suffix -/ja/ added on top of the eprfective suffix -/i/ to convey the start of the state or action as an ongoing event of its own, as in /ngakrgirja/ "they are scattering" 
 
-** Past Imperfective
+*** Past Imperfective
 
-The past imperfective is used for actions viewed as ongoing which ended in the past.
+ The past imperfective is used for actions viewed as ongoing which ended in the past.
 
-** Non-Past Imperfective
+*** Non-Past Imperfective
 
-The non-past imperfective is most commonly used to express ongoing actions which began in the past and continue through the present. Like the perfective, it may also have future meaning if used with an adverbial expressing a specific time. The default meaning of the future use of the non-past imperfective is that the start of the action is in the future but before the time which is specified, however it is also possible to express that an action which started in the past will still be ongoing in the future by adding the particle /la/ after the verb.
+ The non-past imperfective is most commonly used to express ongoing actions which began in the past and continue through the present. Like the perfective, it may also have future meaning if used with an adverbial expressing a specific time. The default meaning of the future use of the non-past imperfective is that the start of the action is in the future but before the time which is specified, however it is also possible to express that an action which started in the past will still be ongoing in the future by adding the particle /la/ after the verb.
 
-** Imperative
+*** Imperative
 
-The imperative can be used without an explicit subject to give commands, with the same form being used regardless of the number of people being addressed. The imperative form may also be used with an explicit subject to express optative meaning.
+ The imperative can be used without an explicit subject to give commands, with the same form being used regardless of the number of people being addressed. The imperative form may also be used with an explicit subject to express optative meaning.
 
-** Oddities
+*** Oddities
 
-Some intransitive verbs expressing spatial configuration such as /oxado/ "to be kneeling" are derived from prepositional phrases involving body parts, and so are followed by a genitive pronoun that matches the subject, as in /ngejoxado ngem/ "he is kneeling," historically from /ngejo kado ngem/ "he is on his two knees." Any verb endings will attach to the verb rather than to the genitive pronoun, so "she knelt" would be translated as /ngejoxadowi ngem/ and not /*ngejoxado ngemi/ 
+ Some intransitive verbs expressing spatial configuration such as /oxado/ "to be kneeling" are derived from prepositional phrases involving body parts, and so are followed by a genitive pronoun that matches the subject, as in /ngejoxado ngem/ "he is kneeling," historically from /ngejo kado ngem/ "he is on his two knees." Any verb endings will attach to the verb rather than to the genitive pronoun, so "she knelt" would be translated as /ngejoxadowi ngem/ and not /*ngejoxado ngemi/ 
 
 * TODO Derivational Morphology
 
